@@ -1,0 +1,76 @@
+#homePage {
+    width: 100%;
+    min-height: 100vh;
+    padding-bottom: 150px;
+    background: rgb(214, 144, 73);
+    background: linear-gradient(148deg, rgb(214, 144, 73) 0%, rgb(93, 48, 3) 100%);
+  }
+  
+  .albums h2 {
+    color: white;
+    font-weight: bold;
+  }
+  
+  .legends h2 {
+    color: white;
+    font-weight: bold;
+  }
+  
+  @media screen and (max-width: 991px) {
+    #pageContent {
+      padding-left: 0;
+      padding-top: 50px;
+      height: 100%;
+    }
+  }
+  /* sidemenu styles end */
+  
+  #album-title {
+    font-family: "spotify-bold";
+    text-align: center;
+    font-size: 2rem;
+    letter-spacing: 0.01rem;
+  }
+  .artist {
+    font-family: "spotify-book";
+  }
+  .songs {
+    font-family: "spotify-medium";
+    color: #f8f8f8;
+    font-size: 15px;
+    letter-spacing: 0.05rem;
+  }
+  
+  .play-btn {
+    border-radius: 20px;
+    font-family: "spotify-book";
+    font-size: 12px;
+    width: 120px;
+    line-height: 1.5rem;
+    letter-spacing: 0.1rem;
+  }
+  
+  .play-btn:hover {
+    transform: scale(1.1, 1.1);
+  }
+  
+  .single-album {
+    margin-bottom: 1rem;
+  }
+  
+  .single-album p {
+    color: white;
+    text-align: center;
+    font-weight: 500;
+    width: 100%;
+    margin-top: 5px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+  
+  h2 {
+    color: white;
+    font-weight: bold;
+  }
+  
